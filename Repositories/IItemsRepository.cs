@@ -8,5 +8,8 @@ namespace Catalog.Repositories
     {
         Item GetItem(Guid id);
         IEnumerable<Item> GetItems();
+        void DeleteItem(Guid id);
+        void UpdateItem(Item item);
+        void CreateItem(Item item);
     }
 }
