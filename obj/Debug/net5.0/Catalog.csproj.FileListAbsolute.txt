@@ -26,3 +26,15 @@
 /Users/dotnetguy/Projects/Catalog/obj/Debug/net5.0/ref/Catalog.dll
 /Users/dotnetguy/Projects/Catalog/obj/Debug/net5.0/Catalog.pdb
 /Users/dotnetguy/Projects/Catalog/obj/Debug/net5.0/Catalog.genruntimeconfig.cache
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/DnsClient.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/MongoDB.Bson.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/MongoDB.Driver.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/MongoDB.Driver.Core.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/SharpCompress.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/win/native/snappy64.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
