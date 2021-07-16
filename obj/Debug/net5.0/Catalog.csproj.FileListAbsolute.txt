@@ -38,3 +38,6 @@
 /Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
 /Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
 /Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/HealthChecks.MongoDb.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/dotnetguy/Projects/Catalog/bin/Debug/net5.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
