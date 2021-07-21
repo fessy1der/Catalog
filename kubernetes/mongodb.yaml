@@ -29,3 +29,28 @@ spec:
               secretKeyRef:
                 name: catalog-secrets
                 key: mongodb-password
+        volumeMounts:
+          - mountPath: /data/db 
+            name: data   
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 1Gi
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-service
+spec:
+  clusterIP: None
+  selector:
+    app: mongodb
+  ports:
+  - port: 27017
+    targetPort: 27017
+            
