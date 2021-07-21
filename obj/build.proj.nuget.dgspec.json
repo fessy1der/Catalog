@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dotnetguy/Projects/Catalog/build.proj": {}
+  },
+  "projects": {
+    "/Users/dotnetguy/Projects/Catalog/build.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dotnetguy/Projects/Catalog/build.proj",
+        "projectName": "build",
+        "projectPath": "/Users/dotnetguy/Projects/Catalog/build.proj",
+        "packagesPath": "/Users/dotnetguy/.nuget/packages/",
+        "outputPath": "/Users/dotnetguy/Projects/Catalog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dotnetguy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
