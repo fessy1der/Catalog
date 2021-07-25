@@ -5,6 +5,7 @@
     <UserSecretsId>367f50c0-8735-4ce1-b9c7-d48ff2f915e4</UserSecretsId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Catalog' " />
   <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="5.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.13.0" />

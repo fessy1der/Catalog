@@ -25,7 +25,6 @@
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/bin/Debug/net5.0/runtimes/linux/native/libmongocrypt.so
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/bin/Debug/net5.0/runtimes/osx/native/libmongocrypt.dylib
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/bin/Debug/net5.0/runtimes/win/native/mongocrypt.dll
-/Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.csprojAssemblyReference.cache
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.GeneratedMSBuildEditorConfig.editorconfig
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.AssemblyInfoInputs.cache
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.AssemblyInfo.cs
@@ -41,3 +40,4 @@
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/ref/Catalog.Api.dll
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.pdb
 /Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.genruntimeconfig.cache
+/Users/dotnetguy/Projects/Catalog/Catalog.Api/obj/Debug/net5.0/Catalog.Api.csproj.AssemblyReference.cache

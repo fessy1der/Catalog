@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{5587E1FF-3E3B-4B90-A1E8-303185CB193B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ItemsControllerTests.cs">
+    <Files>
+      <File FileName="ItemsControllerTests.cs" Line="12" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Catalog.Tests" expanded="True">
+            <Node name="Catalog.Tests" expanded="True">
+              <Node name="ItemsControllerTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Catalog.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
