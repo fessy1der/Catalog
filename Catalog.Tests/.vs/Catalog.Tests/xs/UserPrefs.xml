@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{5587E1FF-3E3B-4B90-A1E8-303185CB193B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ItemsControllerTests.cs">
     <Files>
-      <File FileName="ItemsControllerTests.cs" Line="12" Column="40" />
+      <File FileName="ItemsControllerTests.cs" Line="14" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Catalog.Tests" expanded="True">
-            <Node name="Catalog.Tests" expanded="True">
-              <Node name="ItemsControllerTests.cs" selected="True" />
+            <Node name="Catalog.Tests" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
