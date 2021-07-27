@@ -63,6 +63,32 @@ namespace Catalog.Tests
 
             //Assert
             actualItems.Should().BeEquivalentTo(expectedItems, options => options.ComparingByMembers<Item>());
+
+        }
+
+        [Fact]
+        public async Task CreateItemAsync_WithItemToCreate_ReturnsCreatedItems()
+        {
+            //Arrange
+            var itemToCreate = new CreateItemDto()
+            {
+                Name = Guid.NewGuid().ToString(),
+                Price = rand.Next(1000)
+            };
+
+            var controller = new ItemsController(repositoryStub.Object, loggerStub.Object);
+
+            //Act
+            var result = await controller.CreateItemAsync(itemToCreate);
+
+            //Assert
+            var createdItem = (result.Result as CreatedAtActionResult).Value as ItemDto;
+            itemToCreate.Should().BeEquivalentTo(
+                createdItem,
+                options => options.ComparingByMembers<ItemDto>().ExcludingMissingMembers()
+            );
+            createdItem.Id.Should().NotBeEmpty();
+            createdItem.DateCreated.Should().BeCloseTo(DateTimeOffset.UtcNow, 1000);
         }
 
         private Item CreateRandomItem()
