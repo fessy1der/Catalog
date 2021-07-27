@@ -57,7 +57,7 @@ namespace Catalog.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<CreateItemDto>> UpdateItemAsync(Guid id, UpdateItemDto itemDto)
+        public async Task<ActionResult> UpdateItemAsync(Guid id, UpdateItemDto itemDto)
         {
             var existingItem = await _repository.GetItemAsync(id);
             if (existingItem == null)
