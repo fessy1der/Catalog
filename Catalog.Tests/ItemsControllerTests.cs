@@ -47,7 +47,7 @@ namespace Catalog.Tests
             var result = await controller.GetItemAsync(Guid.NewGuid());
 
             //Assert
-            result.Value.Should().BeEquivalentTo(expectedItem, options => options.ComparingByMembers<Item>());
+            result.Value.Should().BeEquivalentTo(expectedItem);
         }
 
         [Fact]
@@ -62,7 +62,7 @@ namespace Catalog.Tests
             var actualItems = await controller.GetItemsAsync();
 
             //Assert
-            actualItems.Should().BeEquivalentTo(expectedItems, options => options.ComparingByMembers<Item>());
+            actualItems.Should().BeEquivalentTo(expectedItems);
 
         }
 
@@ -70,11 +70,7 @@ namespace Catalog.Tests
         public async Task CreateItemAsync_WithItemToCreate_ReturnsCreatedItems()
         {
             //Arrange
-            var itemToCreate = new CreateItemDto()
-            {
-                Name = Guid.NewGuid().ToString(),
-                Price = rand.Next(1000)
-            };
+            var itemToCreate = new CreateItemDto(Guid.NewGuid().ToString(), Guid.NewGuid().ToString(), rand.Next(1000));
 
             var controller = new ItemsController(repositoryStub.Object, loggerStub.Object);
 
@@ -99,11 +95,7 @@ namespace Catalog.Tests
             repositoryStub.Setup(repo => repo.GetItemAsync(It.IsAny<Guid>())).ReturnsAsync(existingItem);
 
             var itemId = existingItem.Id;
-            var itemToUpdate = new UpdateItemDto()
-            {
-                Name = Guid.NewGuid().ToString(),
-                Price = existingItem.Price + 3
-            };
+            var itemToUpdate = new UpdateItemDto(Guid.NewGuid().ToString(), Guid.NewGuid().ToString(), existingItem.Price + 3);
 
             var controller = new ItemsController(repositoryStub.Object, loggerStub.Object);
             //Act

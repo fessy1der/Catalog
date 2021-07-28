@@ -2,11 +2,12 @@ using System;
 
 namespace Catalog.Api.Models
 {
-    public record Item
+    public class Item
     {
-        public Guid Id { get; init; }
-        public string Name { get; init; }
-        public decimal Price { get; init; }
-        public DateTimeOffset DateCreated { get; init; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Description { get; set; }
+        public DateTimeOffset DateCreated { get; set; }
     }
 }
